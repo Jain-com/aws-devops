@@ -2,20 +2,19 @@
 
 A full-stack web application built using **ReactJS**, **NodeJS (Express)**, and **MySQL**, deployed on **AWS** using a **3-Tier Architecture**. This branch (`feature/add-logging`) includes **application-level logging** with **CloudWatch** integration for monitoring.
 
-> 🔗 **Live Demo:** _Coming soon_
 
 ---
 
 ## 📸 User Interface Screenshots
 
 ### Dashboard
-![Dashboard](./frontend/public/ss/dashboard.png)
+<img width="975" height="497" alt="image" src="https://github.com/user-attachments/assets/c0f03cde-0b24-4ea0-8133-80bae5e089d3" />
+
 
 ### Books
-![Books](./frontend/public/ss/books.png)
+<img width="975" height="491" alt="image" src="https://github.com/user-attachments/assets/d3247880-aae8-4981-aab2-fed6f00a6184" />
 
-### Authors
-![Authors](./frontend/public/ss/authors.png)
+
 
 ---
 
@@ -34,6 +33,9 @@ A full-stack web application built using **ReactJS**, **NodeJS (Express)**, and 
 ## 📐 Architecture
 
 This project follows a **3-Tier Architecture** deployed on AWS:
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/ba99ee98-7a01-4c5f-bc2e-0dcba6d90d0f" />
+
 
 - **Presentation Layer** — ReactJS served via NGINX on public EC2 instances
 - **Application Logic Layer** — ExpressJS REST API managed by PM2 on private EC2 instances
